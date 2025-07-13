@@ -1,6 +1,6 @@
 1.create a folder DjangoToDo which is the name of the project
 2.open with vscode
-3.create a vitual environment inside the project folder by "python -m venv env"
+3.create a virtual environment inside the project folder by "python -m venv env"
 4.activate the environment by "env/Scripts/activate"
 5.install the Django by "pip install Django"
 6."pip freeze" to check the installed libraries in the current environment
@@ -11,5 +11,12 @@
 11.you can see the Django admin panel at "http://127.0.0.1:8000/admin"
 12.inside todo_main create view.py
 13.create templates folder in root directory not in todo_main and configure the todo_main/settings.py ,TEMPLATES = ['DIRS':['templates']
-14."git init" creates a new Git repository
-15.
+14."git init" creates a new Git repository () -all these below commands are seen in git hub once you create a repository in git hub
+15."git commit -m 'first commit'"
+16."git branch -M main
+17."git remote add origin git@github.com:HarshalDeokar99/ToDo.git"
+18."git push -u origin main"
+19.now we can see all the code in our repository
+20.create the app todo "python manage.py startapp todo"
+21.after that configure the created app in todo_main/settings.py INSTALLED_APPS = ['todo'] 
+22 
