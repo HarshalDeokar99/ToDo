@@ -19,4 +19,7 @@
 19.now we can see all the code in our repository
 20.create the app todo "python manage.py startapp todo"
 21.after that configure the created app in todo_main/settings.py INSTALLED_APPS = ['todo'] 
-22 
+22.create Task class in todo/models.py
+23.register this class in todo/admin.py
+24."python manage.py makemigrations" (this will create the migration file for the tables created in models)
+25."python manage.py migrate" (this will create a database table)

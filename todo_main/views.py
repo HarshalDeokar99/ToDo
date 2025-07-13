@@ -9,8 +9,11 @@ def home(request):
     #filter - mulltiple data fetched
     #all - all the data will be fetched
 
+    completed_tasks=Task.objects.filter(is_completed=True)
+
     context={
         'tasks':tasks,
+        'completed_tasks':completed_tasks,
     }
 
     # return HttpResponse("homepage")
